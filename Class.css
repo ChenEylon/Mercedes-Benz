@@ -218,6 +218,7 @@ h5 {
         display: flex;
         flex-direction: column;
         text-align: center;
+        align-items: flex-start;
     }
 
     #cart {
@@ -234,6 +235,10 @@ h5 {
 
     #p2 {
         display: none;
+    }
+    #header{
+        display: flex;
+        flex-direction: column;
     }
 }
 
