@@ -68,6 +68,15 @@ text-align: center;
     #cart{
         display: none;
     }
+    #header {
+      display: flex;
+      background-color: black;
+      align-items: stretch;
+      flex-direction: column;
+      justify-content: space-around;}
+      #sections{
+        flex-direction: column;
+      }
 
   }
   button{

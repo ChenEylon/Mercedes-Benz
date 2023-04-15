@@ -217,10 +217,16 @@ h5 {
     #div1 {
 
         display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: flex-start;
-    }
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+}
+#heders{
+    width: 2vmin;
+}
+#para  h5{
+    width: 90vmin;
+}
 
     #cart {
         display: none;
@@ -229,7 +235,19 @@ h5 {
     p {
         margin: 0%;
     }
-
+    #k{
+        align-items: flex-start;
+}
+    
+    #everything1 {
+        background-color: darkgrey;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        width: 100vw;
+        border-radius: 3vmin;
+    }
     #c-class {
         display: none;
     }
@@ -240,6 +258,12 @@ h5 {
     #header{
         display: flex;
         flex-direction: column;
+    }
+    h2{
+        margin: 0%;
+    }
+    hr{
+        display: none;
     }
 }
 
