@@ -97,6 +97,10 @@ transform: scale(1.2);
 display: flex;
 flex-direction:column;
 text-align: center;
+margin-top: 2vmin;
+    }
+    #logo{
+      width: 60vmin;
     }
     #cart{
         display: none;
@@ -104,13 +108,19 @@ text-align: center;
     #header {
       display: flex;
       background-color: black;
-      align-items: stretch;
-      flex-direction: column;
-      justify-content: space-around;}
-      #sections{
+      align-items: center;
+    flex-direction: column;
+    justify-content: space-around;}
+    #sections{
         flex-direction: column;
-        margin-bottom: 1vmin;
+      } 
+      .sections{
+      margin-top: 3vmin;
       }
+      input{
+      width: 18vmin;
+      }
+      
 
   }
   button{
