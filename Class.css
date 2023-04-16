@@ -1,6 +1,7 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     background-color: black;
 }
@@ -18,30 +19,56 @@ body {
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
 }
+
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-o-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 #logo {
     display: flex;
@@ -195,22 +222,23 @@ h5 {
     font-size: 3vmin;
     animation: pulse-black 2s infinite;
 }
+
 @keyframes pulse-black {
     0% {
-      transform: scale(0.95);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
     }
-    
+
     70% {
-      transform: scale(1);
-      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
     }
-    
+
     100% {
-      transform: scale(0.95);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
-  }
+}
 
 #p2 {
     position: relative;
@@ -270,17 +298,19 @@ h5 {
     #div1 {
 
         display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
 
-}
-#heders{
-    width: 2vmin;
-}
-#para  h5{
-    width: 90vmin;
-}
+    }
+
+    #heders {
+        width: 2vmin;
+    }
+
+    #para h5 {
+        width: 90vmin;
+    }
 
     #cart {
         display: none;
@@ -289,10 +319,11 @@ h5 {
     p {
         margin: 0%;
     }
-    #k{
+
+    #k {
         align-items: center;
-}
-    
+    }
+
     #everything1 {
         background-color: darkgrey;
         display: flex;
@@ -301,8 +332,9 @@ h5 {
         flex-direction: column-reverse;
         width: 90vw;
         border-radius: 3vmin;
-        
+
     }
+
     #c-class {
         display: none;
     }
@@ -310,17 +342,21 @@ h5 {
     #p2 {
         display: none;
     }
-    #header{
+
+    #header {
         display: flex;
         flex-direction: column;
     }
-    h2{
+
+    h2 {
         margin: 0%;
     }
-    hr{
+
+    hr {
         display: none;
     }
-    .headers{
+
+    .headers {
         display: none;
     }
 }
@@ -333,9 +369,15 @@ video {
     margin-bottom: 7vmin;
     animation: open;
 }
-@keyframes open{
-    0% {scale: 0;}
-    100% {scale: 100%;}
+
+@keyframes open {
+    0% {
+        scale: 0;
+    }
+
+    100% {
+        scale: 100%;
+    }
 }
 
 p {
@@ -345,12 +387,14 @@ p {
 h3 {
     font-size: 4vmin;
 }
+
 #btn-three {
     color: #FFF;
     transition: all 0.5s;
     position: relative;
-  }
-  #btn-three::before {
+}
+
+#btn-three::before {
     content: '';
     position: absolute;
     top: 0;
@@ -358,14 +402,16 @@ h3 {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     transition: all 0.3s;
-  }
-  #btn-three:hover::before {
-    opacity: 0 ;
-    transform: scale(0.5,0.5);
-  }
-  #btn-three::after {
+}
+
+#btn-three:hover::before {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+}
+
+#btn-three::after {
     content: '';
     position: absolute;
     top: 0;
@@ -376,11 +422,12 @@ h3 {
     opacity: 0;
     transition: all 0.3s;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    transform: scale(1.2,1.2);
-    
-    
-  }
-  #btn-three:hover::after {
+    transform: scale(1.2, 1.2);
+
+
+}
+
+#btn-three:hover::after {
     opacity: 1;
-    transform: scale(1,1);
-  }
+    transform: scale(1, 1);
+}
