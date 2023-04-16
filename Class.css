@@ -118,6 +118,7 @@ body {
     height: 50vmin;
     border-radius: 3vmin;
     position: relative;
+    object-fit: cover;
 
 }
 
@@ -145,6 +146,7 @@ body {
     position: absolute;
     bottom: 10.6vmin;
     right: 0vmin;
+    object-fit: cover;
 }
 
 h1 {
