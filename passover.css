@@ -144,6 +144,7 @@ cursor: pointer;
     color: #FFF;
     font-size: 3vmin;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    font-family: 'Courier New', Courier, monospace bold;
   }
 
   
