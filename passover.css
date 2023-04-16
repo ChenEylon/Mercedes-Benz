@@ -79,11 +79,13 @@ iframe{
     display: flex;
     background-color: black;
     justify-content: center;
+    border-radius: 5vmin;
 }
 .icons{
     width: 10vmin;
     height: 10vmin;
     cursor: pointer;
+    border-radius: 5vmin;
 }
 .icons:hover{
 transform: scale(1.2);

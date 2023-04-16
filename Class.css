@@ -12,7 +12,36 @@ body {
     align-items: center;
     justify-content: center;
     position: sticky;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 #logo {
     display: flex;
@@ -222,6 +251,7 @@ h5 {
     background-color: black;
     justify-content: center;
     align-items: flex-end;
+    border-radius: 3vmin;
 }
 
 .icons:hover {
@@ -231,6 +261,7 @@ h5 {
 .icons {
     width: 5vmin;
     height: 5vmin;
+    border-radius: 3vmin;
 }
 
 @media only screen and (max-width: 600px) {
