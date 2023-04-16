@@ -162,7 +162,24 @@ h5 {
     display: flex;
     padding-right: 0;
     font-size: 3vmin;
+    animation: pulse-black 2s infinite;
 }
+@keyframes pulse-black {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
 
 #p2 {
     position: relative;
@@ -281,6 +298,11 @@ h3 {
 
 video {
     margin-bottom: 7vmin;
+    animation: open;
+}
+@keyframes open{
+    0% {scale: 0;}
+    100% {scale: 100%;}
 }
 
 p {
